@@ -3,9 +3,9 @@ public class Main {
         System.out.println("Hello world!");
 
 
-        Author bulgakov = new Author("Михаил", "Булгаков");
-        Book firstBook = new Book("Михаил", "Мастер и Маргарита", 1928);
-        Book secondBook = new Book("Михаил", "Белая гвардия", 1925);
+        Author mBulgakov = new Author("Михаил", "Булгаков");
+        Book firstBook = new Book(mBulgakov, "Мастер и Маргарита", 1928);
+        Book secondBook = new Book(mBulgakov, "Белая гвардия", 1925);
         firstBook.setPublishingYear(1926);
         firstBook.getPublishingYear();
         System.out.println(firstBook.getPublishingYear());
